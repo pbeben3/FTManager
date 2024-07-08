@@ -182,7 +182,7 @@
             btnSaveTraining.Name = "btnSaveTraining";
             btnSaveTraining.Size = new Size(92, 35);
             btnSaveTraining.TabIndex = 6;
-            btnSaveTraining.Text = "Add";
+            btnSaveTraining.Text = "Save";
             btnSaveTraining.UseVisualStyleBackColor = false;
             // 
             // label3

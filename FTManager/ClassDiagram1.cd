@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FTManager.Models.Equipment">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACAAAAAAAAAAAQAIAAAAAAACAAAgAAAAAA=</HashCode>
+      <FileName>Models\Equipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Models.Manager">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="FTManager.Models.User" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="2.623" />
+        <Point X="5" Y="2.808" />
+        <Point X="4.438" Y="2.808" />
+        <Point X="4.438" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQABCAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Models.MatchPlayed">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAgAAABAAAAACAAAAAAABEAAAAAAAAA=</HashCode>
+      <FileName>Models\MatchPlayed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Models.Player">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAEAAAAwABAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Models.TrainingSession">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAIQAAAAAABAABAAAAAAAA=</HashCode>
+      <FileName>Models\TrainingSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Models.UpcomingMatch">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAAAABAAAAAAAAAAAABAEAAAAAAAAA=</HashCode>
+      <FileName>Models\UpcomingMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Models.User">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAEQAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Repositories.BaseRepository">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Repositories.EquipmentRepository">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAABAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\EquipmentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Repositories.ManagerRepository">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAABAgQAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ManagerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Repositories.MatchPlayedRepository">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAABAAAAAAAAAIAAIAAAAAAAA=</HashCode>
+      <FileName>Repositories\MatchPlayedRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Repositories.TrainingSessionRepository">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAQAAAAQCAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Repositories\TrainingSessionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Repositories.UpcomingMatchRepository">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAgAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\UpcomingMatchRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Repositories.PlayerRepository">
+    <Position X="16.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAJAAAAAAAAAAAAAQAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Repositories\PlayerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Repositories.UserRepository">
+    <Position X="18.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Presenters.EquipmentPresenter">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAQAIDAAQAAAAAEAEAAAAAIDAAAQQAAAAQAAA=</HashCode>
+      <FileName>Presenters\EquipmentPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.LoginPresenter">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAggAAAAAAAAAAQAAEIAAAQA=</HashCode>
+      <FileName>Presenters\LoginPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.ManagerDashboardPresenter">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAAAAAgAAQBAAAAACAAACAAAAAAAQA=</HashCode>
+      <FileName>Presenters\ManagerDashboardPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.ManagerPresenter">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAQAACAAQAQAAAFAgAAAQAACBAAQAAAAAgAgA=</HashCode>
+      <FileName>Presenters\ManagerPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.MatchPlayedPresenter">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAQAASAAQQgAAIEBAgAAAAACAIAQAAAAAAgAA=</HashCode>
+      <FileName>Presenters\MatchPlayedPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.PlayerDashboardPresenter">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAAgAAABAAAAAAAAACAAAAAAAQA=</HashCode>
+      <FileName>Presenters\PlayerDashboardPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.PlayerProfilePresenter">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACIAAAAAAAAAAAAAAAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>Presenters\PlayerProfilePresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.PlayersPresenter">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQAACAAYAAgAAAAAAAABAAAAAAQiBABAgAAA=</HashCode>
+      <FileName>Presenters\PlayersPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.TrainingSessionPresenter">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAACAEQAAABAUAAABgIAACAAAQAIAAAAgAA=</HashCode>
+      <FileName>Presenters\TrainingSessionPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Presenters.UpcomingMatchPresenter">
+    <Position X="1" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAQAgCAAQAAAAAEAAAEAAABCAAEQBAAAAAgAA=</HashCode>
+      <FileName>Presenters\UpcomingMatchPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTManager.Views.EquipmentView">
+    <Position X="1" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAFAgAAGDEABECAACAIBQiJgxIEBABCAAAoAYBBAQ=</HashCode>
+      <FileName>Views\EquipmentView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.LoginView">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAgAACAAABAAEQCAAhgCAAAAIAACABAAAQBAAAA=</HashCode>
+      <FileName>Views\LoginView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.ManagerDashboardView">
+    <Position X="4.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAIAKBAABAAAACAABQDAAAAICAAgAAAERAABAA=</HashCode>
+      <FileName>Views\ManagerDashboardView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.ManagersView">
+    <Position X="6.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAigBCoAACAEEBEQAWCAABwGBChIAIIKARBAAAABDIQ=</HashCode>
+      <FileName>Views\ManagersView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.MatchPlayedView">
+    <Position X="8.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACkHAgAACAGBJlAAADCABgCDAhKAAQAREBAAAABBFQ=</HashCode>
+      <FileName>Views\MatchPlayedView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.PlayerDashboardView">
+    <Position X="10" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAACBAABADAACAABADAAAAIAAAAAAAARAAAAA=</HashCode>
+      <FileName>Views\PlayerDashboardView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.PlayerProfileView">
+    <Position X="11.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAASIAABAgAECAABQCBAFAAAAAgAAAAAAACAA=</HashCode>
+      <FileName>Views\PlayerProfileView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.PlayersView">
+    <Position X="13.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiChAgAACAEgBEgAcCAABwCBAhIAAIDABBACCIBDLQ=</HashCode>
+      <FileName>Views\PlayersView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.TrainingSessionView">
+    <Position X="15.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIhAgAACAFABEAAICBAZAqRAhIgAABkABAAIABBFQ=</HashCode>
+      <FileName>Views\TrainingSessionView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FTManager.Views.UpcomingMatchView">
+    <Position X="17" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACCFAgAACAkgBEAAADCABQCBAhIAAUBUkBAAAABBBQ=</HashCode>
+      <FileName>Views\UpcomingMatchView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FTManager.Models.IEquipmentRepository">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAABAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IEquipmentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Models.IManagerRepository">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAABAgQAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IManagerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Models.IMatchPlayedRepository">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAABAAAAAAAAAIAAIAAAAAAAA=</HashCode>
+      <FileName>Models\IMatchPlayedRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Models.IPlayerRepository">
+    <Position X="16.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAJAAAAAAAAAAAAAQAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\IPlayerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Models.ITrainingSessionRepository">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAQAAAAQCAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\ITrainingSessionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Models.IUpcomingMatchRepository">
+    <Position X="15" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAgAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAA=</HashCode>
+      <FileName>Models\IUpcomingMatchRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Models.IUserRepository">
+    <Position X="18.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Models\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IEquipmentView">
+    <Position X="1" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAgAAECEAAAAAAAAAAQAIAAMEBABCAAAoAQAAAA=</HashCode>
+      <FileName>Views\IEquipmentView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.ILoginView">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAEQAAAggAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ILoginView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IManagerDashboardView">
+    <Position X="4.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAAAAAAAAQBAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IManagerDashboardView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IManagersView">
+    <Position X="6.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBCoAAAAEAAAQAWAAAAwABCAMAAAKAAAAAAAACAA=</HashCode>
+      <FileName>Views\IManagersView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IMatchPlayedView">
+    <Position X="8" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkFAgAAAAEBAgAAABAAAACCAAOAAAABEBAAAAAABQ=</HashCode>
+      <FileName>Views\IMatchPlayedView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IPlayerDashboardView">
+    <Position X="9.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAAAAAABAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IPlayerDashboardView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IPlayerProfileView">
+    <Position X="11.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAgAEAAAAQABAAEAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Views\IPlayerProfileView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IPlayersView">
+    <Position X="13.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAgAAAAEgAAgAUAAAAwABAAMAAIDAAAAACAACCA=</HashCode>
+      <FileName>Views\IPlayersView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.ITrainingSessionView">
+    <Position X="15" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAgAAAAFAAAAAIABAIAIQAAMAAABgABAAIAAABA=</HashCode>
+      <FileName>Views\ITrainingSessionView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FTManager.Views.IUpcomingMatchView">
+    <Position X="16.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACFAgAAAAkgAAAAABCAAAAAAAMAAEBAkAAAAAAABQ=</HashCode>
+      <FileName>Views\IUpcomingMatchView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

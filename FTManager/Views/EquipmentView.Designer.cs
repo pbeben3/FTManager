@@ -187,7 +187,7 @@
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(92, 35);
             btnSave.TabIndex = 8;
-            btnSave.Text = "Add";
+            btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = false;
             // 
             // label4
